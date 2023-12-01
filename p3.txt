@@ -1,0 +1,11 @@
+Pregunta 3
+Qué cambiaría en el código (Clases / Métodos) - No implementación.
+- Se tendría que agregar un atributo en la clase Cuenta que tendría que aumentar por cada pago realizado y 
+verificar que no exceda el limite de 200 antes de cada pago, también reinicar el limite cada día que podría 
+verificarse con la hora del último pago realizado por la cuenta
+Nuevos casos de prueba a adicionar.
+- Casos de prueba cuando se quiere realizar un pago de 200 defrente y cuando se quiere realizar el pago de 200 
+teniendo una primera operación de 199 
+Cuánto riesgo hay de “romper” lo que ya funciona?
+- Hay un riesgo moderado pues implicaría modificar varias partes del codigo que ya funciona, pues se añadiría código
+en la ruta de /pagar e incluso un apartado de cuanto le falta para llegar al límite diario en /historial
